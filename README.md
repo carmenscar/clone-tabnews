@@ -1,3 +1,8 @@
-# clone-tabnews
+#CURSO DEV
 
-Implementação do tabnews.com.br - curso
+| Conceito                   | JavaScript / Node            | Python                | Go (Golang)                    | O que faz / Para que serve                                    |
+| :------------------------- | :--------------------------- | :-------------------- | :----------------------------- | :------------------------------------------------------------ |
+| **Executor / Linguagem**   | Node.js                      | Python (Interpreter)  | Go CLI (`go run` / `go build`) | Compila/executa o código da linguagem.                        |
+| **Gerenciador de Versão**  | nvm                          | pyenv                 | gvm / goenv                    | Permite alternar entre versões da linguagem na mesma máquina. |
+| **Gerenciador de Pacotes** | npm / yarn / pnpm            | pip / uv / poetry     | Go Modules (`go get`)          | Gerencia e instala bibliotecas e dependências do projeto.     |
+| **Ambientes Isolados**     | `node_modules` (por projeto) | `venv` / `virtualenv` | `GOPATH` / Go Modules          | Mantém as dependências e pacotes isolados por projeto.        |

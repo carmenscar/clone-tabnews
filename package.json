@@ -1,14 +1,10 @@
 {
-  "name": "clone-tabnews",
+  "name": "curso_dev",
   "version": "1.0.0",
-  "description": "Implementação do tabnews.com.br - curso",
+  "description": "| Conceito                   | JavaScript / Node            | Python                | Go (Golang)                    | O que faz / Para que serve                                    | | :------------------------- | :--------------------------- | :-------------------- | :----------------------------- | :------------------------------------------------------------ | | **Executor / Linguagem**   | Node.js                      | Python (Interpreter)  | Go CLI (`go run` / `go build`) | Compila/executa o código da linguagem.                        | | **Gerenciador de Versão**  | nvm                          | pyenv                 | gvm / goenv                    | Permite alternar entre versões da linguagem na mesma máquina. | | **Gerenciador de Pacotes** | npm / yarn / pnpm            | pip / uv / poetry     | Go Modules (`go get`)          | Gerencia e instala bibliotecas e dependências do projeto.     | | **Ambientes Isolados**     | `node_modules` (por projeto) | `venv` / `virtualenv` | `GOPATH` / Go Modules          | Mantém as dependências e pacotes isolados por projeto.        |",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write .",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
@@ -16,9 +12,5 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "jest": "^29.6.2",
-    "prettier": "^3.3.3"
   }
 }
